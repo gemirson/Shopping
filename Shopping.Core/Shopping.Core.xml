@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shopping.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Shopping.Core.AbstractionsStrings.ArgumentIsEmpty(System.Object)">
+            <summary>
+                The string argument '{argumentName}' cannot be empty.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.AbstractionsStrings.ArgumentIsNegativeNumber(System.Object)">
+            <summary>
+                The number argument '{argumentName}' cannot be negative number.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.AbstractionsStrings.CollectionArgumentHasEmptyElements(System.Object)">
+            <summary>
+                The collection argument '{argumentName}' must not contain any empty elements.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.AbstractionsStrings.CollectionArgumentIsEmpty(System.Object)">
+            <summary>
+                The collection argument '{argumentName}' must contain at least one element.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.IInternalServiceCollectionMap.AddDependencySingleton``1">
+            <summary>
+                Adds a <see cref="!:ServiceLifetime.Singleton" />  dependency object.
+            </summary>
+            <typeparam name="TDependencies"> The dependency type. </typeparam>
+            <returns> The same collection map so that further methods can be chained. </returns>
+        </member>
+        <member name="M:Shopping.Core.IInternalServiceCollectionMap.AddDependencyScoped``1">
+            <summary>
+                Adds a <see cref="!:ServiceLifetime.Scoped" />  dependency object.
+            </summary>
+            <typeparam name="TDependencies"> The dependency type. </typeparam>
+            <returns> The same collection map so that further methods can be chained. </returns>
+        </member>
+        <member name="M:Shopping.Core.InternalServiceCollectionMap.AddDependencySingleton``1">
+            <summary>
+                This is an internal API that supports the Entity Framework Core infrastructure and not subject to
+                the same compatibility standards as public APIs. It may be changed or removed without notice in
+                any release. You should only use it directly in your code with extreme caution and knowing that
+                doing so can result in application failures when updating to a new Entity Framework Core release.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.InternalServiceCollectionMap.AddDependencyScoped``1">
+            <summary>
+                This is an internal API that supports the Entity Framework Core infrastructure and not subject to
+                the same compatibility standards as public APIs. It may be changed or removed without notice in
+                any release. You should only use it directly in your code with extreme caution and knowing that
+                doing so can result in application failures when updating to a new Entity Framework Core release.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.InternalServiceCollectionMap.AddDependency(System.Type,Microsoft.Extensions.DependencyInjection.ServiceLifetime)">
+            <summary>
+                This is an internal API that supports the Entity Framework Core infrastructure and not subject to
+                the same compatibility standards as public APIs. It may be changed or removed without notice in
+                any release. You should only use it directly in your code with extreme caution and knowing that
+                doing so can result in application failures when updating to a new Entity Framework Core release.
+            </summary>
+        </member>
+        <member name="T:Shopping.Core.Properties.Resources">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:Shopping.Core.Properties.Resources.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:Shopping.Core.Properties.Resources.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:Shopping.Core.Properties.Resources.CoreStrings">
+            <summary>
+              Consulta uma cadeia de caracteres localizada semelhante a NotAnEFService.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.RegisteredServices.#ctor(System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+                This is an internal API that supports the Entity Framework Core infrastructure and not subject to
+                the same compatibility standards as public APIs. It may be changed or removed without notice in
+                any release. You should only use it directly in your code with extreme caution and knowing that
+                doing so can result in application failures when updating to a new Entity Framework Core release.
+            </summary>
+        </member>
+        <member name="P:Shopping.Core.RegisteredServices.Services">
+            <summary>
+                This is an internal API that supports the Entity Framework Core infrastructure and not subject to
+                the same compatibility standards as public APIs. It may be changed or removed without notice in
+                any release. You should only use it directly in your code with extreme caution and knowing that
+                doing so can result in application failures when updating to a new Entity Framework Core release.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.ServiceCharacteristics.#ctor(Microsoft.Extensions.DependencyInjection.ServiceLifetime,System.Boolean)">
+            <summary>
+                Creates a new <see cref="T:Shopping.Core.ServiceCharacteristics" /> struct.
+            </summary>
+            <param name="lifetime"> The service lifetime. </param>
+            <param name="multipleRegistrations">
+                <see langword="true" /> if multiple registrations of the service is allowed; <see langword="false" />
+                otherwise.
+            </param>
+        </member>
+        <member name="P:Shopping.Core.ServiceCharacteristics.Lifetime">
+            <summary>
+                The service lifetime.
+            </summary>
+        </member>
+        <member name="P:Shopping.Core.ServiceCharacteristics.MultipleRegistrations">
+            <summary>
+                <see langword="true" /> if multiple registrations of the service is allowed; <see langword="false" /> otherwise.
+            </summary>
+        </member>
+        <member name="M:Shopping.Core.ShoppingServicesBuilder.TryAdd(System.Type,System.Type)">
+            <summary>
+                Adds an implementation of an Entity Framework service only if one has not already been registered.
+                The scope of the service is automatically defined by Entity Framework.
+            </summary>
+            <param name="serviceType"> The contract for the service. </param>
+            <param name="implementationType"> The concrete type that implements the service. </param>
+            <returns> This builder, such that further calls can be chained. </returns>
+        </member>
+    </members>
+</doc>
